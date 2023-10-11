@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UML 2 Jonas", "UML 2 Jonas\UML 2 Jonas.csproj", "{55DBB471-BF8E-4EE4-BA78-0D3D7ACBE6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test UML2", "Test uml2\Test UML2.csproj", "{8BC24F48-E050-43F9-BD81-0D27A9B0CD99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55DBB471-BF8E-4EE4-BA78-0D3D7ACBE6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DBB471-BF8E-4EE4-BA78-0D3D7ACBE6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DBB471-BF8E-4EE4-BA78-0D3D7ACBE6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DBB471-BF8E-4EE4-BA78-0D3D7ACBE6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC24F48-E050-43F9-BD81-0D27A9B0CD99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC24F48-E050-43F9-BD81-0D27A9B0CD99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC24F48-E050-43F9-BD81-0D27A9B0CD99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC24F48-E050-43F9-BD81-0D27A9B0CD99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F2407C4-D503-4E69-A1D2-59820D4A7A9F}
+	EndGlobalSection
+EndGlobal
