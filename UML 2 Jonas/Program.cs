@@ -21,11 +21,11 @@ Console.ReadLine();
 //Pizza foundPizza = pizzaRepositoryList.LookupPizza("2");
 //if (foundPizza != null)
 //{
-//    //Udskriv foundBook
+//    //Udskriv foundPizza
 //    Console.WriteLine($"Pizza fundet {foundPizza.ToString()}");
 //}
 //else
 //{
-//    //Udskriv bog ikke fundet
+//    //Udskriv pizza ikke fundet
 //    Console.WriteLine("Pizza ikke fundet");
 //}
