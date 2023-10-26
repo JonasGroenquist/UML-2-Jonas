@@ -34,7 +34,7 @@ namespace UML_2_Jonas
             Console.WriteLine("\t---------------CRUD Listoperationer--------------------");
             Console.WriteLine("\t1.\tTilføj pizza til Pizza RepositoryList");
             Console.WriteLine("\t2.\tUdskriv alle pizzaer fra PizzaRepositoryList");
-            Console.WriteLine("\t3.\tSøg efter en pizza i PizzaRepositoryList udfra ISBN");
+            Console.WriteLine("\t3.\tSøg efter en pizza i PizzaRepositoryList udfra nummer");
             Console.WriteLine("\t4.\tFjern pizza  fra PizzaRepositoryList");
             Console.WriteLine("\t5.\tOpdater pizza i PizzaRepositoryList");
             Console.WriteLine("\t---------------CRUD Dictionaryoperationer--------------------");
@@ -74,11 +74,11 @@ namespace UML_2_Jonas
                     case 4:
                         Console.Clear();
                         //Console.WriteLine("To be implemented!");
-                        DeleteBookFromList();
+                        DeletePizzaFromList();
                         break;
                     case 5:
                         Console.Clear();
-                        UpdateBookList();
+                        UpdatePizzaList();
                         break;
                     case 6:
                         Console.Clear();
@@ -91,7 +91,7 @@ namespace UML_2_Jonas
                         break;
                     case 8:
                         Console.Clear();
-                        SearchCustomerList();
+                        SearchCustomerDictionary();
                         break;
                     case 9:
                         Console.Clear();
@@ -122,8 +122,8 @@ namespace UML_2_Jonas
             string topping = Console.ReadLine();
             Console.WriteLine("Angiv pris");
             double cost = double.Parse(Console.ReadLine());
-            Pizza b = new Pizza(name, topping, cost, number);
-            _pizzaRepositoryList.AddPizza(b);
+            Pizza p = new Pizza(name, topping, cost, number);
+            _pizzaRepositoryList.AddPizza(p);
         }
         private void SearchPizzaList()
         {
@@ -141,14 +141,14 @@ namespace UML_2_Jonas
             }
             Console.ReadLine();
         }
-        private void DeleteBookFromList()
+        private void DeletePizzaFromList()
         {
             Console.WriteLine("Delete pizza");
             Console.WriteLine("Angiv nummer");
             string number = Console.ReadLine();
             _pizzaRepositoryList.DeletePizza(number);
         }
-        private void UpdateBookList()
+        private void UpdatePizzaList()
         {
             Console.WriteLine("Update pizza");
             Console.WriteLine("Angiv nummer på pizza der skal opdateres");
@@ -191,7 +191,7 @@ namespace UML_2_Jonas
             Customer b = new Customer(name, email, phone, adress);
             _customerRepositoryDictionary.AddCustomer(b);
         }
-        private void SearchCustomerList()
+        private void SearchCustomerDictionary()
         {
             Console.WriteLine("Search customer");
             Console.WriteLine("Angiv tlf nummer");
